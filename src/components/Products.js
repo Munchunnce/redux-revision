@@ -17,7 +17,7 @@ const Products = () => {
         // };
 
         // fetchProducts();
-    }, []);
+    }, [dispatch]);
 
     const handleAdd = (product) => {
       dispatch(add(product));
